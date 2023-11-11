@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Head from 'next/head'
 import AppLayout from '@/components/Layout'
 import { Typography, Divider, Timeline } from 'antd'
@@ -31,7 +32,7 @@ export default function FraccionesSuma() {
             <Text strong>Numerador:</Text> El numerador es el número que se encuentra en la parte superior de la fracción. Representa la cantidad o la parte que se considera en la fracción. Indica cuántas partes de un todo o de una cantidad están siendo consideradas. <br /><br />
             <Text strong>Denominador:</Text> El denominador es el número que se encuentra en la parte inferior de la fracción. Representa el número total de partes en el todo o la cantidad. Indica en cuántas partes se divide el todo o la cantidad. <br /><br />
 
-            En conjunto, el numerador y el denominador forman la fracción y describen la relación entre una parte y el todo. La fracción se lee como "numerador sobre denominador". En el ejemplo anterior, se leería como "tres quintos" o "tres partes de cinco". <br /><br />
+            {'En conjunto, el numerador y el denominador forman la fracción y describen la relación entre una parte y el todo. La fracción se lee como "numerador sobre denominador". En el ejemplo anterior, se leería como "tres quintos" o "tres partes de cinco".'} <br /><br />
             Es importante recordar que el denominador nunca puede ser igual a cero, ya que dividir por cero no tiene sentido matemático. Además, una fracción se puede simplificar si el numerador y el denominador tienen factores comunes que se pueden cancelar.
 
           </Paragraph>
