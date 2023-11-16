@@ -32,28 +32,28 @@ export default function EcuacionesDePrimerGrado() {
           </Paragraph>
 
           <Paragraph>
-            Donde "a" y "b" son coeficientes y "x" es la variable que se desea encontrar. Las partes principales de una ecuación de primer grado son: <br /><br />
+            {'Donde "a" y "b" son coeficientes y "x" es la variable que se desea encontrar. Las partes principales de una ecuación de primer grado son:'} <br /><br />
           </Paragraph>
 
           <Paragraph className="indented-container">
-            <Text strong>1.- </Text> Coeficientes: Los coeficientes "a" y "b" son números que multiplican a las variables y constantes en la ecuación. El coeficiente "a" se encuentra multiplicando a la variable y el coeficiente "b" se encuentra en el lado derecho de la ecuación. <br /><br />
+            <Text strong>1.- </Text> {'Coeficientes: Los coeficientes "a" y "b" son números que multiplican a las variables y constantes en la ecuación. El coeficiente "a" se encuentra multiplicando a la variable y el coeficiente "b" se encuentra en el lado derecho de la ecuación.'} <br /><br />
           </Paragraph>
 
           <Paragraph className="indented-container">
-            <Text strong>2.- </Text> Variable: La variable "x" es la incógnita o valor desconocido que se busca resolver en la ecuación. Es la cantidad que queremos encontrar y puede tomar diferentes valores. <br /><br />
+            <Text strong>2.- </Text> {'Variable: La variable "x" es la incógnita o valor desconocido que se busca resolver en la ecuación. Es la cantidad que queremos encontrar y puede tomar diferentes valores.'} <br /><br />
           </Paragraph>
 
           <Paragraph className="indented-container">
-            <Text strong>3.- </Text> Término constante: El término constante, representado por "c", es el número que se encuentra en el lado derecho de la ecuación. No contiene ninguna variable y se suma o resta en la ecuación. <br /><br />
+            <Text strong>3.- </Text> {'Término constante: El término constante, representado por "c", es el número que se encuentra en el lado derecho de la ecuación. No contiene ninguna variable y se suma o resta en la ecuación.'} <br /><br />
           </Paragraph>
 
           <Paragraph className="indented-container">
-            <Text strong>4.- </Text> Miembros: La ecuación se divide en dos lados, el lado izquierdo (primer miembro) y el lado derecho (segundo miembro), separados por el signo de igual (=). Las expresiones algebraicas se encuentran en el lado izquierdo y derecho de la ecuación y deben ser iguales para que la ecuación sea verdadera. <br /><br />
+            <Text strong>4.- </Text> {'Miembros: La ecuación se divide en dos lados, el lado izquierdo (primer miembro) y el lado derecho (segundo miembro), separados por el signo de igual (=). Las expresiones algebraicas se encuentran en el lado izquierdo y derecho de la ecuación y deben ser iguales para que la ecuación sea verdadera.'} <br /><br />
           </Paragraph>
         </Typography>
 
         <Paragraph>
-          El objetivo de resolver una ecuación de primer grado es encontrar el valor de la variable "x" que satisface la igualdad. Esto se logra despejando la variable y realizando operaciones algebraicas para simplificar la ecuación hasta obtener el valor de "x".
+          {'El objetivo de resolver una ecuación de primer grado es encontrar el valor de la variable "x" que satisface la igualdad. Esto se logra despejando la variable y realizando operaciones algebraicas para simplificar la ecuación hasta obtener el valor de "x".'}
         </Paragraph>
 
         <Divider>¿Cómo se hace?</Divider>
@@ -63,11 +63,11 @@ export default function EcuacionesDePrimerGrado() {
         </Paragraph>
 
         <Paragraph className="indented-container">
-          <Text strong>1.- </Text> Identifica las incógnitas: Determina las variables o incógnitas que deseas encontrar en la ecuación. Por lo general, se utiliza la letra "x", pero también se pueden utilizar otras letras. <br /><br />
+          <Text strong>1.- </Text> {'Identifica las incógnitas: Determina las variables o incógnitas que deseas encontrar en la ecuación. Por lo general, se utiliza la letra "x", pero también se pueden utilizar otras letras.'} <br /><br />
         </Paragraph>
 
         <Paragraph className="indented-container">
-          <Text strong>2.- </Text> Asigna coeficientes: Asigna coeficientes numéricos a las variables. Los coeficientes son los números que multiplican a las variables en la ecuación. Pueden ser positivos, negativos o fracciones. <br /><br />
+          <Text strong>2.- </Text> {'Asigna coeficientes: Asigna coeficientes numéricos a las variables. Los coeficientes son los números que multiplican a las variables en la ecuación. Pueden ser positivos, negativos o fracciones.'} <br /><br />
         </Paragraph>
 
         <Paragraph className="indented-container">
@@ -96,7 +96,7 @@ export default function EcuacionesDePrimerGrado() {
               children: (
                 <div>
                   <Paragraph>
-                    Identifica la incógnita: Vamos a utilizar la variable "x" para representar el número desconocido.
+                    {'Identifica la incógnita: Vamos a utilizar la variable "x" para representar el número desconocido.'}
                   </Paragraph>
                 </div>
               ),

@@ -31,19 +31,19 @@ export default function EcuacionesDePrimerGrado() {
           </Paragraph>
 
           <Paragraph>
-            Donde "a", "b" y "c" son coeficientes y "x" es la variable que se desea encontrar. Las partes principales de una ecuación de segundo grado son: <br /><br />
+            {'Donde "a", "b" y "c" son coeficientes y "x" es la variable que se desea encontrar. Las partes principales de una ecuación de segundo grado son:'} <br /><br />
           </Paragraph>
 
           <Paragraph className="indented-container">
-            <Text strong>1.- </Text> Coeficientes: Los coeficientes "a", "b" y "c" son números que multiplican a las variables y constantes en la ecuación. El coeficiente "a" se encuentra multiplicando a la variable elevada al cuadrado, el coeficiente "b" se encuentra multiplicando a la variable lineal y el coeficiente "c" es un término constante. <br /><br />
+            <Text strong>1.- </Text> {'Coeficientes: Los coeficientes "a", "b" y "c" son números que multiplican a las variables y constantes en la ecuación. El coeficiente "a" se encuentra multiplicando a la variable elevada al cuadrado, el coeficiente "b" se encuentra multiplicando a la variable lineal y el coeficiente "c" es un término constante.'} <br /><br />
           </Paragraph>
 
           <Paragraph className="indented-container">
-            <Text strong>2.- </Text> Variable: La variable "x" es la incógnita o valor desconocido que se busca resolver en la ecuación. Es la cantidad que queremos encontrar y puede tomar diferentes valores. <br /><br />
+            <Text strong>2.- </Text> {'Variable: La variable "x" es la incógnita o valor desconocido que se busca resolver en la ecuación. Es la cantidad que queremos encontrar y puede tomar diferentes valores.'} <br /><br />
           </Paragraph>
 
           <Paragraph className="indented-container">
-            <Text strong>3.- </Text> Término constante: El término constante, representado por "c", es un número que no contiene ninguna variable y se suma o resta en la ecuación. <br /><br />
+            <Text strong>3.- </Text> {'Término constante: El término constante, representado por "c", es un número que no contiene ninguna variable y se suma o resta en la ecuación.'} <br /><br />
           </Paragraph>
 
           <Paragraph className="indented-container">
@@ -52,7 +52,7 @@ export default function EcuacionesDePrimerGrado() {
         </Typography>
 
         <Paragraph>
-          El objetivo de resolver una ecuación de segundo grado es encontrar los valores de la variable "x" que satisfacen la igualdad. Esto se logra utilizando técnicas como factorización, completar el cuadrado o utilizando la fórmula general para ecuaciones cuadráticas.
+          {'El objetivo de resolver una ecuación de segundo grado es encontrar los valores de la variable "x" que satisfacen la igualdad. Esto se logra utilizando técnicas como factorización, completar el cuadrado o utilizando la fórmula general para ecuaciones cuadráticas.'}
         </Paragraph>
 
         <Divider>¿Cómo se hace?</Divider>
@@ -62,7 +62,7 @@ export default function EcuacionesDePrimerGrado() {
         </Paragraph>
 
         <Paragraph className="indented-container">
-          <Text strong>1.- </Text> Identifica las incógnitas: Determina las variables o incógnitas que deseas encontrar en la ecuación. Por lo general, se utiliza la letra "x", pero también se pueden utilizar otras letras. <br /><br />
+          <Text strong>1.- </Text> {'Identifica las incógnitas: Determina las variables o incógnitas que deseas encontrar en la ecuación. Por lo general, se utiliza la letra "x", pero también se pueden utilizar otras letras.'} <br /><br />
         </Paragraph>
 
         <Paragraph className="indented-container">
@@ -93,7 +93,7 @@ export default function EcuacionesDePrimerGrado() {
               children: (
                 <div>
                   <Paragraph>
-                    Identifica la incógnita: Vamos a utilizar la variable "x" para representar la longitud del lado del cuadrado.
+                    {'Identifica la incógnita: Vamos a utilizar la variable "x" para representar la longitud del lado del cuadrado.'}
                   </Paragraph>
                 </div>
               ),
@@ -111,7 +111,7 @@ export default function EcuacionesDePrimerGrado() {
               children: (
                 <div>
                   <Paragraph>
-                    Agrega términos constantes: No hay términos constantes en este ejemplo..
+                    Agrega términos constantes: No hay términos constantes en este ejemplo.
                   </Paragraph>
                 </div>
               ),
