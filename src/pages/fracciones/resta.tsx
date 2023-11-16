@@ -1,4 +1,3 @@
-// @ts-nocheck
 import Head from 'next/head'
 import AppLayout from '@/components/Layout'
 import { Typography, Divider, Timeline } from 'antd'
@@ -6,20 +5,20 @@ import Latex from 'react-latex'
 
 const { Title, Paragraph, Text } = Typography
 
-export default function FraccionesSuma() {
+export default function FraccionesResta() {
   const fractionsSize = 3
 
   return (
     <>
       <Head>
-        <title>Nuevos Talentos - Suma de fracciones</title>
+        <title>Nuevos Talentos - Resta de fracciones</title>
         <meta name="description" content="Página web para el aprendizaje de las matemáticas" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <AppLayout defaultOpenKeys={["fracciones"]} defaultSelectedKeys={["suma"]}>
+      <AppLayout defaultOpenKeys={["fracciones"]} defaultSelectedKeys={["resta"]}>
 
-        <Title level={3}>Suma de fracciones</Title>
+        <Title level={3}>Resta de fracciones</Title>
 
         <Divider>Información previa</Divider>
 
@@ -49,15 +48,15 @@ export default function FraccionesSuma() {
         <Divider>¿Cómo se hace?</Divider>
 
         <Paragraph>
-          Para hacer sumas de fracciones, sigue estos pasos detallados y explícitos: <br /><br />
+          Para hacer resta de fracciones, sigue estos pasos detallados y explícitos: <br /><br />
         </Paragraph>
 
         <Paragraph className="indented-container">
-          <Text strong>1.- </Text> Asegúrate de que los denominadores sean iguales: Para poder sumar fracciones, los denominadores deben ser iguales. Si los denominadores son diferentes, deberás encontrar un denominador común. Para ello, puedes buscar el mínimo común múltiplo (mcm) de los denominadores y luego multiplicar cada fracción por un factor que haga que sus denominadores sean iguales. <br /><br />
+          <Text strong>1.- </Text> Asegúrate de que los denominadores sean iguales: Para poder restar fracciones, los denominadores deben ser iguales. Si los denominadores son diferentes, deberás encontrar un denominador común. Para ello, puedes buscar el mínimo común múltiplo (mcm) de los denominadores y luego multiplicar cada fracción por un factor que haga que sus denominadores sean iguales. <br /><br />
         </Paragraph>
 
         <Paragraph className="indented-container">
-          <Text strong>2.- </Text> Suma los numeradores: Una vez que los denominadores sean iguales, simplemente suma los numeradores de las fracciones. El denominador de la fracción resultante será el mismo que el de las fracciones originales. <br /><br />
+          <Text strong>2.- </Text> Resta los numeradores: Una vez que los denominadores sean iguales, simplemente resta los numeradores de las fracciones. El denominador de la fracción resultante será el mismo que el de las fracciones originales. <br /><br />
         </Paragraph>
 
         <Paragraph className="indented-container">
@@ -70,13 +69,13 @@ export default function FraccionesSuma() {
 
         <Typography>
           <Paragraph>
-            Es importante tener en cuenta que estos pasos son una guía general para sumar fracciones. Siempre es recomendable revisar y ajustar los pasos según las instrucciones específicas o el contexto del problema. <br /><br />
+            Es importante tener en cuenta que estos pasos son una guía general para restar fracciones. Siempre es recomendable revisar y ajustar los pasos según las instrucciones específicas o el contexto del problema. <br /><br />
           </Paragraph>
         </Typography>
 
         <Title level={4}>Ejemplo</Title>
 
-        <Title level={fractionsSize} className="example-styles"><Latex >{`$\\frac 2 3 + \\frac 1 4$`}</Latex></Title>
+        <Title level={fractionsSize} className="example-styles"><Latex >{`$\\frac 3 5 - \\frac 1 2$`}</Latex></Title>
 
         <br />
 
@@ -86,10 +85,10 @@ export default function FraccionesSuma() {
               children: (
                 <div>
                   <Paragraph>
-                    Verificar los denominadores. En este caso, los denominadores son diferentes (3 y 4). Necesitamos encontrar un denominador común. <br />
-                    El mínimo común múltiplo (mcm) de 3 y 4 es 12 y este será nuestro nuevo denominador. (Otra forma de solucionar esto es multiplicar ambos denominadores) <br /><br />
+                    Verificar los denominadores. En este caso, los denominadores son diferentes (5 y 2). Necesitamos encontrar un denominador común. <br />
+                    El mínimo común múltiplo (mcm) de 5 y 2 es 10 y este será nuestro nuevo denominador. (Otra forma de solucionar esto es multiplicar ambos denominadores) <br /><br />
 
-                    <Title level={fractionsSize} className="example-styles"><Latex >{`$\\frac 2 {12} + \\frac 1 {12}$`}</Latex></Title>
+                    <Title level={fractionsSize} className="example-styles"><Latex >{`$\\frac 3 {10} - \\frac 1 {10}$`}</Latex></Title>
                   </Paragraph>
                 </div>
               ),
@@ -101,19 +100,19 @@ export default function FraccionesSuma() {
                     Ahora debemos ajustar numerador de las fracciones para no modificar la fracción. Haremos esto
                     dividiendo el nuevo denominador entre el denominador de la fracción y el cociente lo multiplicamos por el numerador de la fracción,
                     haremos esto con cada una de las fracciones de la suma (sumandos). <br /><br />
-                    Así en este ejemplo para la primera fracción (<Latex >{`$\\frac 2 3$`}</Latex>) quedaría 12 entre 3 que es igual a 4 y este 4 lo multiplicamos por el numerador que es 2 y 2 por 4 es igual a 8 <br /><br />
-                    Haciendo lo mismo con la segunda fracción (<Latex >{`$\\frac 1 4$`}</Latex>) quedaría 12 entre 4 que es igual a 3 y este 3 lo multiplicamos por el numerador que es 1 y 1 por 3 es igual a 3 <br /><br />
+                    Así en este ejemplo para la primera fracción (<Latex >{`$\\frac 3 5$`}</Latex>) quedaría 10 entre 5 que es igual a 2 y este 2 lo multiplicamos por el numerador que es 3 y 3 por 2 es igual a 6 <br /><br />
+                    Haciendo lo mismo con la segunda fracción (<Latex >{`$\\frac 1 2$`}</Latex>) quedaría 10 entre 2 que es igual a 5 y este 5 lo multiplicamos por el numerador que es 1 y 1 por 5 es igual a 5 <br /><br />
 
                     Realizando estos ajustes a nuestras fracciones nos quedarían de esta manera:  <br /><br />
 
-                    <Title level={fractionsSize} className="example-styles"><Latex >{`$\\frac 8 {12} + \\frac 3 {12}$`}</Latex></Title>
+                    <Title level={fractionsSize} className="example-styles"><Latex >{`$\\frac 6 {10} - \\frac 5 {10}$`}</Latex></Title>
 
                     Lo que es equivalente a: <br />
-                    <Title level={fractionsSize} className="example-styles"><Latex >{`$\\frac 2 3 + \\frac 1 4$`}</Latex></Title>
+                    <Title level={fractionsSize} className="example-styles"><Latex >{`$\\frac 3 5 - \\frac 1 2$`}</Latex></Title>
 
                     Entonces podríamos decir que: <br />
 
-                    <Title level={fractionsSize} className="example-styles"><Latex >{`$\\frac 2 3 + \\frac 1 4 = \\frac 8 {12} + \\frac 3 {12}$`}</Latex></Title>
+                    <Title level={fractionsSize} className="example-styles"><Latex >{`$\\frac 3 5 - \\frac 1 2 = \\frac 6 {10} - \\frac 5 {10}$`}</Latex></Title>
                   </Paragraph>
                 </div>
               ),
@@ -122,9 +121,9 @@ export default function FraccionesSuma() {
               children: (
                 <div>
                   <Paragraph>
-                    Ya con un denominador común podemos simplemente sumar los numeradores <br /><br />
+                    Ya con un denominador común podemos simplemente restar los numeradores <br /><br />
 
-                    <Title level={fractionsSize} className="example-styles"><Latex >{`$\\frac 8 {12} + \\frac 3 {12} = \\frac {11} {12}$`}</Latex></Title>
+                    <Title level={fractionsSize} className="example-styles"><Latex >{`$\\frac 6 {10} - \\frac 5 {10} = \\frac 1 {10}$`}</Latex></Title>
                   </Paragraph>
                 </div>
               ),
@@ -133,7 +132,7 @@ export default function FraccionesSuma() {
               children: (
                 <Paragraph>
                   De ser posible se simplifica la fracción, pero en este caso no es posible, así que nuestra solución es {' '}
-                  <Latex >{`$\\frac {11} {12}$`}</Latex>
+                  <Latex >{`$\\frac 1 {10}$`}</Latex>
                 </Paragraph>
               )
             },

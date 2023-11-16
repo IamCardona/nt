@@ -55,17 +55,29 @@ export default function AppLayout({
                     },
                     {
                       key: "resta",
-                      label: `Resta`,
+                      label: <Link href="/fracciones/resta">Resta</Link>,
                     },
                     {
                       key: "multiplicación",
-                      label: `Multiplicación`,
+                      label: <Link href="/fracciones/multiplicacion">Multiplicación</Link>,
                     },
                     {
                       key: "división",
-                      label: `División`,
+                      label: <Link href="/fracciones/division">División</Link>,
                     },
                   ]
+                },
+                {
+                  key: `ecuaciones1`,
+                  label: <Link href="/ecuaciones_de_primer_grado">Ecuaciones de primer grado</Link>
+                },
+                {
+                  key: `ecuaciones2`,
+                  label: <Link href="/ecuaciones_de_segundo_grado">Ecuaciones de segundo grado</Link>
+                },
+                {
+                  key: `productos_notables`,
+                  label: <Link href="/productos_notables">Productos notables</Link>
                 }
               ]}
             />

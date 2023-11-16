@@ -3,3 +3,17 @@
   padding: 0;
   margin: 0;
 }
+
+.image-styles {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.indented-container {
+  margin-left: 1rem;
+}
+
+.example-styles {
+  text-align: center;
+}
