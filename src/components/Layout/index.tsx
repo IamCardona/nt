@@ -89,16 +89,26 @@ export default function AppLayout({
       </Content>
 
       <Footer style={{ textAlign: 'center' }}>
-        <h3 style={{ margin: "2rem 0" }}>Nuevos Talentos ©2023 Desarrollado por</h3>
+        <h3 style={{ margin: "2rem 0" }}>Nuevos Talentos ©2023 Desarrollado por alumnos del ITQ</h3>
 
         <div style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "center"
         }}>
-          <img src="logo-itq.png" alt="Logo del ITQ" width={150} style={{margin: "1rem"}} />
-          <img src="concy.png" alt="Logo del CONCYTEQ" width={250} style={{margin: "1rem"}} />
+          <img src="logo-itq.png" alt="Logo del ITQ" width={150} style={{ margin: "1rem" }} />
         </div>
+
+        <h3 style={{ margin: "2rem 0" }}>Financiado con fondos de CONCYTEQ</h3>
+
+        <div style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center"
+        }}>
+          <img src="concy.png" alt="Logo del CONCYTEQ" width={250} style={{ margin: "1rem" }} />
+        </div>
+
 
       </Footer>
     </Layout>
